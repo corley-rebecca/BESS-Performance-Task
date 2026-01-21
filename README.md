@@ -20,18 +20,17 @@ This repository intentionally **excludes raw data and configuration files** in a
 
 ```
 bess-performance-task/
-│
-├── bess_performance/           # Python package
+├── bess_performance/
 │   ├── __init__.py
-│   ├── calc_energy.py          # Core energy calculations
-│   ├── run_calc_energy.py      # CLI-style execution script
-│   └── peek_data.py            # Lightweight data inspection utilities
-│
-├── setup.py                    # Packaging configuration
-├── README.md                   # Project documentation
+│   ├── calc_energy.py
+│   ├── peek_data.py
+│   ├── run_calc_energy.py
+│   └── BESS_Performance_Analysis.ipynb
+├── setup.py
+├── README.md
 ├── LICENSE
-├── .gitignore
-└── dist/                       # Built artifacts (ignored by Git)
+└── .gitignore
+
 ```
 
 ---
