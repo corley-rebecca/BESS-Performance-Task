@@ -1,4 +1,3 @@
-# Describe project here
 
 import pandas as pd
 from pathlib import Path
@@ -9,7 +8,7 @@ folder_path = DATA_FOLDER
 interval_hours = INTERVAL_HOURS
 
 # file path
-#file_path = "20221108/20221030.parquet"
+#file_path = ""
 
 # see what is in files
 #df = pd.read_parquet(file_path)
