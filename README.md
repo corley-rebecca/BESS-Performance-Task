@@ -4,15 +4,17 @@
 
 ## Overview
 
-This repository contains a Python package for analyzing Battery Energy Storage System (BESS) performance data exported from a utility-scale Battery Energy Storage Station. The station consists of 72 inverters (~3.6 MW each), with two DC inputs per inverter. Each DC input may connect to either two or three BESS enclosures (battery containers).
+This repository contains a Python package for analyzing performance data from a utility-scale Battery Energy Storage System (BESS). The station consists of 72 inverters (~3.6 MW each), with two DC inputs per inverter. Each DC input may be connected to two or three BESS enclosures (battery containers) depending on the system configuration.
 
-The goal of this project is to provide reproducible, modular tooling to:
+The objective of this project is to provide reproducible, modular, and well-documented tooling to:
 
 * Calculate daily energy charged and discharged by each BESS enclosure
-* Identify underperforming (outlier) enclosures
-* Visualize discharge performance over time via a heatmap
 
-This repository intentionally **excludes raw data and configuration files** in accordance with the assignment requirements.
+* Identify underperforming (outlier) enclosures
+
+* Visualize discharge performance over time using a daily heatmap
+
+Note: Raw data and configuration files are intentionally excluded from this repository in accordance with the assignment requirements.
 
 ---
 
