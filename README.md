@@ -129,7 +129,6 @@ A companion Jupyter notebook is provided separately to walk through the full met
 * Assumptions
 * Calculations
 * Visualizations
-* Interpretation of results
 
 ---
 
